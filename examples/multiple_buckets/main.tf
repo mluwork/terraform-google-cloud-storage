@@ -34,6 +34,8 @@ module "cloud_storage" {
     "two" = ["dev", "prod"]
   }
 
+  silly_label = "awesome"
+
   lifecycle_rules = [{
     action = {
       type          = "SetStorageClass"
